@@ -5,12 +5,12 @@ jq-1.5.tar.gz
 
 - 说明：JQ是一个Linux平台上的 JSON 格式解析器。
 - 依赖于此软件的脚本为：ssr.sh
-
+- 声明：这些脚本都来自于ToyoDAdoubi(https://github.com/ToyoDAdoubi)，此处仅用于个人备份,侵删
 ### 下载安装:
 Debian/Ubuntu系统：
 ``` bash
 apt-get install -y build-essential
-wget --no-check-certificate -N "https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/other/jq-1.5.tar.gz"
+wget --no-check-certificate -N "https://raw.githubusercontent.com/KeaganWang/Script_GFW/master/other/jq-1.5.tar.gz"
 tar -xzf jq-1.5.tar.gz && cd jq-1.5
 ./configure --disable-maintainer-mode && make && make install
 ldconfig
